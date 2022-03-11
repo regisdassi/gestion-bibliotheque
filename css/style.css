@@ -1,0 +1,12 @@
+.conteneur-formulaire{
+    background-color: antiquewhite;
+}
+
+.connexion-img {
+    width: 30%;
+}
+
+.alligner-adroit{
+    display: flex;
+    justify-content: flex-end;
+}
