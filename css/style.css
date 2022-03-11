@@ -1,5 +1,11 @@
+body{
+    background-color: #f47f2096;
+}
+
 .conteneur-formulaire{
-    background-color: antiquewhite;
+    border: 2px solid black;
+    background-color: white;
+    /* background-color: antiquewhite; */;
 }
 
 .connexion-img {
