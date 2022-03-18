@@ -1,4 +1,4 @@
-body{
+.cefp-form{
     background-color: #f47f2096;
 }
 
@@ -14,5 +14,34 @@ body{
 
 .alligner-adroit{
     display: flex;
+    justify-content: flex-end;
+}
+
+
+.navbar-brand img{
+    width: 30%;
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+    
+
+.cefp-number{
+    font-size: 2.5rem;
+    font-weight: 500;
+    border: 2px black solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cefp-list-add-btn{
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
